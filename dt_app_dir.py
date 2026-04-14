@@ -262,10 +262,13 @@ apps = [
                 "name": "Games Arena", 
                 "url": "https://games-arena.streamlit.app//",
                 "description": "A platform which help users to play games on their free time."
-            } 
-
+            },
+            {
+                "name": "Parquet File Viewer", 
+                "url": "https://par-viewer.streamlit.app//",
+                "description": "A platform which can help user to extract the information stored in parquet files by uploading in it."
+            }             
         ] 
-
 num_cols = 5
 cols = st.columns(num_cols)
 
